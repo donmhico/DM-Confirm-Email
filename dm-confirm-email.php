@@ -14,6 +14,7 @@ require_once('models/login-confirm.php');
 require_once('models/login-resend.php');
 require_once('models/plugin-page.php');
 require_once('models/welcome_message.php');
+require_once('inc/pluggable.php');
 
 class DmConfirmEmail {
     /**
