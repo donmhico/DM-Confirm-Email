@@ -2,8 +2,8 @@
 Contributors: donmhico
 Tags: spam, security, registration, email, confirm, protect, users, register
 Requires at least: 3.6
-Tested up to: 3.7.1
-Stable tag: 1.3.1
+Tested up to: 3.8.1
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,10 +37,10 @@ Also allows you to send a welcome message to newly confirmed and created users w
 * Prevents waste of resources and web space by only creating user account to confirmed emails.
 * Uses all the native registration hooks for more advanced customization.
 * Seamless integration
+* NEW! Ability to edit the email message containing the password of the new account that will be sent to the user.
 
 = Future =
-* Edit the email message for password
-* Better UI for the settings page
+* Display all pending registrations that need confirmation on the Dashboard.
 
 == Installation ==
 
@@ -56,6 +56,10 @@ Also allows you to send a welcome message to newly confirmed and created users w
 4. DM Confirm Email settings
 
 == Changelog ==
+
+= 1.4 =
+* Added the ability to edit and customize the email content containing the new account information (username and password).
+* New and better organized Settings page UI.
 
 = 1.3 =
 * Added the ability to send welcome message to newly registered users.
