@@ -104,7 +104,7 @@ class DmConfirmEmail_Models_PluginPage {
                     <a href="#" class="nav-tab nav-tab-active" id="dmec-general">Email Content</a>
                     <a href="#" class="nav-tab" id="dmec-email">Email Welcome Message</a>
                     <a href="#" class="nav-tab" id="dmec-email-reg">Email Registration Message</a>
-                    <a href="#" class="nav-tab" id="dmec-settings">Settings</a>
+                    <a href="#" class="nav-tab" id="dmec-settings">Notification Messages</a>
                 </h2>
 
                 <div id="dmec-general-div" class="dmec-div" style="display: inline">
