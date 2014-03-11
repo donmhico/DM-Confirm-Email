@@ -52,26 +52,23 @@ Changelog
 * Added a "Resend confirmation link" feature
 * Integrated the "Resend confirmation link" in the registration page.
 
-Future
-------
-* Display all pending registrations that need confirmation on the Dashboard.
-
 Installation
 ------------
 [Install like all other plugins](http://codex.wordpress.org/Managing_Plugins#Automatic_Plugin_Installation).
 
+Demo
+----
+Feel free to try and register [here](http://developer.donmhi.co/)
+`Please take note that the site above is just a demo. The database will be cleaned periodically.`
+
 Frequently Asked Questions
 --------------------------
-[How the DM Confirm Email works?].(http://donmhi.co/projects/dm-confirm-email/#howitworks)
+[How the DM Confirm Email works?](http://donmhi.co/projects/dm-confirm-email/#howitworks)
 
 Screenshots
 -----------
 [See screenshots here](http://wordpress.org/plugins/dm-confirm-email/screenshots/)
 
-Upgrade Notice
---------------
-= 1.3 =
-Add the ability to send a welcome message.
-
-= 1.2 =
-Fix major issue, "Parse error: syntax error, unexpected T_STRING in /wp-content/plugins/dm-confirm-email/dm-confirm-email.php on line 12" when activating the plugin
+Future
+------
+* Display all pending registrations that need confirmation on the Dashboard.
