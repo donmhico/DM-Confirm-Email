@@ -122,9 +122,9 @@ class DmConfirmEmail {
         // Default pluggable message
         // see wp-includes/pluggable.php
         // function wp_new_user_notification()
-        $message  = sprintf(__('Username: %s'), '{user_login}') . "\r\n";
-        $message .= sprintf(__('Password: %s'), '{password}') . "\r\n";
-        $message .= '{login_url}' . "\r\n";
+        $message  = "<p>" . sprintf(__('Username: %s'), '{user_login}') . "</p>" . "\r\n";
+        $message .= "<p>" . sprintf(__('Password: %s'), '{password}') . "</p>" . "\r\n";
+        $message .= "<p>" . '{login_url}' . "</p>" . "\r\n";
 
         return $message;
     }
