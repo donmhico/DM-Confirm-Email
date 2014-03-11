@@ -130,7 +130,7 @@ class DmConfirmEmail_Models_PluginPage {
                             <td>
                                 <textarea rows="7" cols="100" name="<?php echo DmConfirmEmail::PLUGIN_ALIAS . "[email_text]"; ?>"><?php echo $options['email_text']; ?></textarea>
                                 <p class="description">
-                                    More info about the available tags <a href="http://donmhi.co">here</a>.
+                                    More info about the available tags <a href="https://donmhi.co/projects/dm-confirm-email/#emailtags">here</a>.
                                 </p>
                             </td>
                         </tr>
@@ -202,7 +202,7 @@ class DmConfirmEmail_Models_PluginPage {
                                 <input name="<?php echo DmConfirmEmail::PLUGIN_ALIAS . "[user_pass_subject]"; ?>" type="text"
                                        size="50" value="<?php echo $userPassSubject; ?>"/>
                                 <p class="description">
-                                    Override the email subject<a href="http://donmhi.co">(?)</a>
+                                    Override the email subject
                                 </p>
                             </td>
                         </tr>
@@ -232,7 +232,7 @@ class DmConfirmEmail_Models_PluginPage {
                             <td>
                                 <textarea rows="3" cols="60" name="<?php echo DmConfirmEmail::PLUGIN_ALIAS . "[success_message]"; ?>"><?php echo esc_html($options['success_message']); ?></textarea>
                                 <p class="description">
-                                    If the registration is success. <a href="http://donmhi.co">(?)</a>
+                                    If the registration is success.
                                 </p>
                             </td>
                         </tr>
@@ -245,7 +245,7 @@ class DmConfirmEmail_Models_PluginPage {
                             <td>
                                 <textarea rows="3" cols="60" name="<?php echo DmConfirmEmail::PLUGIN_ALIAS . "[confirmed_message]"; ?>"><?php echo esc_html($options['confirmed_message']); ?></textarea>
                                 <p class="description">
-                                    If email was confirmed. <a href="http://donmhi.co">(?)</a>
+                                    If email was confirmed.
                                 </p>
                             </td>
                         </tr>
@@ -258,7 +258,7 @@ class DmConfirmEmail_Models_PluginPage {
                             <td>
                                 <textarea rows="3" cols="60" name="<?php echo DmConfirmEmail::PLUGIN_ALIAS . "[failed_message]"; ?>"><?php echo esc_html($options['failed_message']); ?></textarea>
                                 <p class="description">
-                                    If key isn't valid. <a href="http://donmhi.co">(?)</a>
+                                    If key isn't valid.
                                 </p>
                             </td>
                         </tr>
