@@ -155,9 +155,9 @@ class DmConfirmEmail {
     public static function parser($message, $userKey = '', $userLogin = '', $password = '') {
         $siteUrl = site_url();
         $loginUrl = wp_login_url();
-        $keyLink = '<a href="' . esc_url("{$loginUrl}/?action=confirm&eckey={$userKey}") .'" target="_blank">' .
-            esc_url("{$loginUrl}/?action=confirm&eckey={$userKey}") . '</a>';
-        $keyUrl = esc_url("{$loginUrl}/?action=confirm&eckey={$userKey}");
+        $keyLink = '<a href="' . esc_url("{$loginUrl}?action=confirm&eckey={$userKey}") .'" target="_blank">' .
+            esc_url("{$loginUrl}?action=confirm&eckey={$userKey}") . '</a>';
+        $keyUrl = esc_url("{$loginUrl}?action=confirm&eckey={$userKey}");
         $siteTitle = get_bloginfo('name');
         $siteLink = '<a href="' . esc_url($siteUrl) . '" target="_blank">' . $siteTitle . '</a>';
 
